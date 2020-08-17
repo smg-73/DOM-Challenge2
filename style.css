@@ -1,0 +1,87 @@
+* {
+  background: #011627;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+  color: #fdfffc;
+}
+
+section {
+  border: double #fdfffc 10px;
+  margin: 1rem 30% 8rem 30%;
+}
+header {
+  text-align: center;
+  padding: 1rem;
+}
+
+h3 {
+  text-align: center;
+  border: solid #037171 2px;
+  padding: 5px;
+  margin: 1rem 45% 1rem 45%;
+}
+
+.buttons {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+}
+
+.text1,
+.text2 {
+  background-color: #037171;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+#button1,
+#button2 {
+  background-color: #979097;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  border: outset #93e1d8;
+}
+
+p {
+  font-size: 3rem;
+  text-align: center;
+  border: solid #037171 3px;
+  margin: 5rem 30% 5rem 30%;
+  padding: 20px;
+}
+
+.myForm {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-size: 20px;
+  color: #93e1d8;
+}
+input {
+  background-color: #fdfffc;
+  font-size: 15px;
+}
+
+#formHeader {
+  text-align: center;
+  color: #93e1d8;
+  font-size: 35px;
+}
+
+#submit {
+  background-color: #979097;
+  font-size: 1rem;
+  border: outset #93e1d8;
+}
