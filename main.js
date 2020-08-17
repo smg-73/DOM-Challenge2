@@ -39,7 +39,8 @@ function incorrect() {
   alert("Incorrect Password. Please Try Again");
 }
 
-function passwordCheck() {
+function passwordCheck(event) {
+  event.preventDefault();
   let userPassword = password.value;
   if (userPassword === "12345678") {
     correct();
